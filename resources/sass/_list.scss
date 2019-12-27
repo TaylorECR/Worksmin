@@ -1,0 +1,60 @@
+nav{
+
+	height: 80px;
+	box-shadow: $shadow2;
+	background-color: $white;
+
+	.search{
+	
+		padding-top: 20px;
+		width: 400px;
+
+		.inputs{
+
+			box-shadow: $shadow2;
+
+			span{
+				background: $white;
+				border: none;
+			}
+
+			input{
+				height: 45px;
+				border: none;
+				width: 400px;
+			}
+		}
+	}
+
+	a{
+		color: $grey;
+
+		&:hover{
+			color: $grey;
+		}
+	}
+
+	ul li{ 
+
+		padding-left: 10px;
+
+		a{
+			color: $grey;
+
+			&:hover{
+				color: $grey;
+			}
+		}
+
+		.btn-register{
+			border: 0.5px solid $white;
+			border-radius: 4px;
+
+		}
+	}
+}
+
+#list{
+	position: relative;
+	top: 110px;
+}

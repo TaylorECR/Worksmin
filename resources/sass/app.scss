@@ -1,0 +1,38 @@
+// Fonts
+// @import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+// @import '~bootstrap/scss/bootstrap';
+
+body {
+  font-family: $first-font;
+  background-color: $white;
+}
+
+p{
+	font-family: $first-font;
+}
+
+h1, h2,h3,h4,h5,h6{
+	font-family: $second-font;
+}
+
+// Index
+// @import 'index';
+
+// Offert list
+
+// @import 'list-offerts';
+
+// @import 'card';
+
+// Offert detail
+
+// @import 'offert-details';
+
+//Service list
+
+@import 'list';

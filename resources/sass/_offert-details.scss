@@ -1,0 +1,144 @@
+nav{
+
+	height: 40px;
+	box-shadow: $shadow2;
+	background-color: $white;
+	z-index: 2;
+
+	img{
+		height: 43px;
+		width: auto;
+		padding-left: 10px;
+	}
+
+	.search{
+	
+		padding-top: 20px;
+		width: 400px;
+
+		.inputs{
+
+			box-shadow: $shadow2;
+
+			span{
+				background: $white;
+				border: none;
+			}
+
+			input{
+				height: 45px;
+				border: none;
+				width: 400px;
+			}
+		}
+	}
+
+	a{
+		color: $grey;
+
+		&:hover{
+			color: $grey;
+		}
+	}
+
+	ul li{ 
+
+		padding-left: 10px;
+
+		a{
+			color: $grey;
+
+			&:hover{
+				color: $grey;
+			}
+		}
+
+		.btn-register{
+			border: 0.5px solid $white;
+			border-radius: 4px;
+
+		}
+	}
+}
+
+#images{
+
+	padding-top: 110px;
+
+	.company{
+		
+
+		img{
+			padding: 5px 0px 0px 0px;
+			height: 100px;
+			width: auto;
+		}
+	}
+
+	.min {
+
+	}
+}
+
+#details{
+
+	.header{
+
+		img{
+			width: 60px;
+			border-radius: 30px;
+		}
+	}
+
+	.contact{
+		// position: -webkit-sticky;
+		position: sticky;
+		top: 100px;
+		bottom: 20px;
+		z-index: 1;
+
+	}
+}
+
+#options{
+	
+
+	.link-parent{
+		padding: 8px;
+		// background-color: $black;
+
+		a{
+			color: $black;
+		}
+	}
+}
+
+#related{
+
+	.cards{
+
+		.main-card{
+
+			// background-color: $black;
+
+			box-shadow: $shadow2;
+			padding-left: 0px;
+			padding-right: 10px;
+			cursor: pointer;
+
+			img{
+				width: auto;
+				height: 75px;
+			}
+
+			span{
+				border: 1px solid $black;
+				margin-right: 10px;
+				padding-left: 5px;
+				padding-right: 5px;
+				border-radius: 3px;
+			}
+		}
+	}
+}
+

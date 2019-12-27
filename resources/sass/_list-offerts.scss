@@ -1,0 +1,103 @@
+nav{
+
+	height: 80px;
+	box-shadow: $shadow2;
+	background-color: $white;
+
+	img{
+		height: 43px;
+		width: auto;
+		padding-left: 10px;
+	}
+
+	.search{
+	
+		padding-top: 20px;
+		width: 400px;
+
+		.inputs{
+
+			box-shadow: $shadow2;
+
+			span{
+				background: $white;
+				border: none;
+			}
+
+			input{
+				height: 45px;
+				border: none;
+				width: 400px;
+			}
+		}
+	}
+
+	a{
+		color: $grey;
+
+		&:hover{
+			color: $grey;
+		}
+	}
+
+	ul li{ 
+
+		padding-left: 10px;
+
+		a{
+			color: $grey;
+
+			&:hover{
+				color: $grey;
+			}
+		}
+
+		.btn-register{
+			border: 0.5px solid $white;
+			border-radius: 4px;
+
+		}
+	}
+}
+
+#list{
+	position: relative;
+	top: 110px;
+
+	.filter{
+		box-shadow: $shadow2;
+		border-radius: 5px;
+	}
+
+	.main-card{
+		box-shadow: $shadow2;
+		padding: 0px;
+		border-radius: 5px;
+		height: 120px;
+		cursor: pointer;
+		margin-bottom: 20px; 
+
+		.img-card{
+			// border-radius: 5px 0px 0px 5px;
+			// position: absolute;
+			// top: 100%;
+			// left: 100%;
+			// transform: translate(-50%, -50%);
+
+			img{
+				width: 60%;
+				height: 30%;
+			}
+		}
+
+		.title-card{
+			text-transform: uppercase;
+			margin-top: 7px;
+		}
+
+		.text-card p, .desc-card p{
+			line-height: 18px;
+			margin-bottom: 4px;
+		}
+	}
+}

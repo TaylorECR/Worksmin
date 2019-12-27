@@ -1,0 +1,195 @@
+nav{
+	font-family: $first-font;
+	height: 80px;
+	background: rgb(255, 255, 255) transparent;
+	z-index: 2;
+
+	img{
+		height: 80px;
+		width: auto;
+		padding-left: 10px;
+	}
+
+	a{
+		color: $white;
+
+		&:hover{
+			color: $white;
+		}
+	}
+
+	ul li{ 
+
+		padding-left: 10px;
+
+		a{
+			color: $white;
+
+			&:hover{
+				color: $white;
+				// padding-bottom: 8px;
+				// border-bottom: 2px solid $white;
+			}
+		}
+
+		.btn-register{
+			border: 0.5px solid $white;
+			border-radius: 4px;
+
+		}
+	}
+}
+
+#banner{
+	position: relative;
+	top: -80px;
+	background-image: url("../../assets/images/background/background-banner-4.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 700px;
+
+
+	.banner-text{
+		position: relative;
+		top: 60%;
+		color: $white;
+		p{
+			padding-top: 50px;
+		}
+	}
+
+	form{
+		background-color: $white;
+		border-radius: 5px;
+		box-shadow: $shadow;
+		position: relative;
+		top: 80%;
+
+		input{
+			padding: 30px 20px 30px 20px;
+		}
+
+		select{
+			height: 62px;
+		}
+	}
+}
+
+#explore{
+
+	position: relative;
+	top: -80px;
+	padding-bottom: 35px;
+	padding-left: 30px;
+	padding-right: 30px;
+
+
+	h3{
+		padding-top: 15px;
+	}
+
+	.custom-card{
+
+		margin: 10px 10px 10px 10px;
+		padding: 1px;
+		border-radius: 8px;
+		box-shadow: $shadow;
+
+		cursor: pointer;
+
+		img{
+			max-width: 33%;
+			border-radius: 8px 0px 0px 8px;
+		}
+
+		.card-text{
+
+			width: 66%;
+			display: flex;
+        	flex-direction: column;
+
+			p{
+				margin: 0;
+				position: relative;
+				padding-left: 20px;
+				top: 50%;
+				left: 50%;
+				transform: translate(-50%, -50%);
+			}
+		}
+	}
+}
+
+#help{
+	position: relative;
+	top: -80px;
+	// background-image: url("../../assets/images/background/background-footer-3.jpg");
+	// background-repeat: no-repeat;
+	// background-size: 100%;
+	// height: auto;
+	padding-left: 30px;
+	padding-right: 30px;
+
+	img{
+		position: relative;
+		width: 100%;
+		border-radius: 8px;
+	}
+
+	.help-text{
+		position: absolute;
+		color: $white;
+		top: 50%;
+		left: 50%;
+		transform: translate(-50%, -50%);
+
+		h3{
+			padding-bottom: 20px;
+		}
+
+		button{
+			background-color: $white;
+			width: 150px;
+
+			i{
+				padding-left: 10px;
+			}
+		}
+	}
+
+	.card-container{
+		padding-bottom: 10px;
+		.help-card{
+			cursor: pointer;
+			padding: 20px 25px 25px 20px;
+			background-color: $white;
+			border-radius: 8px;
+			
+			height: 70px;
+
+			img{
+				width: 30px;
+				height: 30px;
+				// padding-right: 10px;
+			}
+
+			p{
+				padding-left: 10px;
+			}
+
+			&:hover{
+				box-shadow: $shadow;
+			}
+		}
+	}
+	
+}
+
+#cards{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+
+
+

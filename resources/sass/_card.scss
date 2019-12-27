@@ -1,0 +1,34 @@
+.main-card{
+	cursor: pointer;
+
+	img{
+		border-radius: 5px;
+	}
+
+	.title-card{
+
+		span{
+			padding: 2px 8px;
+			border: 1px solid #000000;
+			border-radius: 2px;
+		}
+
+		p{
+			padding: 0px;
+			margin: 0px;
+		}
+
+	}
+
+	.text-card{
+		line-height: 0px;
+
+		.price{
+			
+			p:nth-child(even){
+				position: relative;
+				top: -25px;
+			}
+		}
+	}
+}
